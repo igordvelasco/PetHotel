@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+
+
+
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+  <script>Flickity.prototype.stopPlayer = function () {
+      this.player.stop();
+      this.player.play();
+    };</script>
+
+
+</head>
+
+<body background="Imagens/Background.jpg">
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffb84d;">
+    <img src="Imagens/Logo.png" height="40" width="180">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="https://image.flaticon.com/icons/png/512/12/12638.png" height="35" width="35">
+
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+
+        <form class="form-inline">
+          <button class="btn btn-sm btn-outline-secondary" type="button"><a href="index.html">Home</a></button>
+
+        </form>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <form class="form-inline">
+          <button class="btn btn-sm btn-outline-secondary" type="button"><a href="AconteceAqui.html">Acontece
+              Aqui</a></button>
+        </form>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <form class="form-inline">
+          <button class="btn btn-sm btn-outline-secondary" type="button"><a href="ConheçaMais.html">Conheça
+              Mais</a></button>
+        </form>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <form class="form-inline">
+          <button class="btn btn-sm btn-outline-secondary" type="button">Reserve Já</button>
+        </form>
+      </ul>
+    </div>
+  </nav>
+
+  <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel" style="width: 15cm; height: 10cm;">
+
+    <div class="main-carousel" data-flickity='{ "autoPlay": 8000 ,"wrapAround": true , "pageDots": true }'>
+      <div class="carousel-cell">
+        <div>
+          <div><img src="Imagens/Cachorro na piscina.jpg"></div>
+          <div><strong> Nessa quinta, teremos uma festa para comemorar a estreia da nossa nova piscina para cachorros.
+              Haverá várias brincadeiras e diversões especiais para seu animal de estimação, além de petiscos para ele
+              se deliciar. E pra terminar, não é necessário se preocupar com seu animalzinho ficar molhada pois
+              possuímos um secador especial para prepará-lo na hora de sair da piscina. (16/06/2020)</strong></div>
+        </div>
+      </div>
+      <div class="carousel-cell">
+        <div>
+          <div><img src="Imagens/Beagle.jpg">
+          </div>
+          <div><strong>O cachorro dessa semana é o Beagle, uma raça brincalhona e agitada que é extremamente
+              inteligente, perfeita como animais de estimação. Além disso também são usados como cães policiais devido
+              ao seu olfato apuradíssimo. Mas nem sempre essa inteligência é boa, já que mais de 7.000 beagles são
+              usados por ano para testes em laboratório. (14/06/2020)</strong></div>
+        </div>
+      </div>
+      <div class="carousel-cell">
+        <div>
+          <div><img src="Imagens/Taco Dog.jpg">
+          </div>
+          <div><strong>Essa semana teremos um evento especial em nosso espaço, uma competição de fantasias. Traga seu
+              pet fantasiado de seu personagem preferido e entre na competição. O vencedor ganhará uma semana de
+              hospedagem grátis, então venha correndo para não perder essa chance. (07/06/2020)</strong></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mapa">
+
+    <div class="carousel-cell">
+      <div>
+        <div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3057.5607226883058!2d-76.60892348430319!3d39.97357299039491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c885a63d18024d%3A0x6d2102615e5df9b6!2sFake%20Rd%2C%20Pennsylvania%2017406%2C%20USA!5e0!3m2!1sen!2sbr!4v1592618230522!5m2!1sen!2sbr"
+            width="800" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0"></iframe>
+        </div>
+        <div class="container">
+          <div class="item">Caso deseje saber mais sobre o lugar, seus funcionários.
+            <button class="conhecamais" type="button"><a href="ConheçaMais.html">Conheça Mais</a></button>
+          </div>
+          <div class="item">Caso deseje saber mais sobre eventos, acontecimentos e comemorações aqui do hotel.<br>
+            <button class="aconteceaqui" type="button"><a href="AconteceAqui.html">Acontece Aqui</a></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+
+  <footer>
+    <div class="email"><img src="Imagens/E-mail.jpg" style="width: 40px; height: 40px;">pethotel@email.com
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="Imagens/phone.png" style="width: 40px; height: 40px;">(XX)XXXXX-XXXX
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="Imagens/home.png" style="width: 40px; height: 40px;">Rua Endereço Falso XXX
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <img src="Imagens/facebook.png" style="width: 40px; height: 40px;"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img
+        src="Imagens/instagram.png" style="width: 40px; height: 40px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img
+        src="Imagens/twitter.png" style="width: 40px; height: 40px;">
+    </div>
+
+  </footer>
+
+</body>
+
+</html>
